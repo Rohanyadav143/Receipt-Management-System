@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="profile.css">
+    </head>
+    <body>
+        <div class="profilepage">
+            <div class="classpage1" id="idpage1">
+                <a href="restaurant.html" id="linka">&#127968;Home</a>
+                <h1 id="restaurantName">Restaurant Name : Fauzi Dhaba</h1>
+                <p id="restaurantAddress">Address : B.K.T , Sitapur Road </p>
+                <p id="restaurantContact">Contact Number : 8767659127</p>
+                <p id="restaurantGmail">Gmail : fauzi12@gmail.com</p>
+                <button class="editButton" onclick="goToEditPage()">Edit</button>
+            </div>
+            <div class="classpage2" id="idpage2" style="display: none;">
+                <h1>Edit Restaurant Information</h1>
+                <h3>Restaurant Name</h3>
+                <input type="text" id="editName" placeholder="Restaurant Name...."><br><br>
+                <h3>Address</h3>
+                <input type="text" id="editAddress" placeholder="Address...."><br><br>
+                <h3>Contact Number</h3>
+                <input type="tel" id="editContact" placeholder="Contact Number...."><br><br>
+                <h3>Gmail</h3>
+                <input type="email" id="editMail" placeholder="Email Id...."><br><br>
+                <button class="saveButton" onclick="saveChange()">Save</button>
+            </div>
+        </div>
+        <script src="profile.js"></script>
+    </body>
+</html>
